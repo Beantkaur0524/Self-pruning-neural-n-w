@@ -3,6 +3,7 @@ Developed a self-pruning neural network using PyTorch that removes redundant neu
 
 ## 🔑 Key Idea
 Each weight is associated with a learnable gate:
+
 $$
 w_{eff} = w \cdot \sigma(\tau \cdot g)
 $$
