@@ -6,7 +6,10 @@ Each weight is associated with a learnable gate:
 ```math
 w_{eff} = w \cdot \sigma(\tau \cdot g)
 
-- g → learnable gate score  
-- τ → temperature scaling (sharpens pruning)  
-- Gate ≈ 0 → weight removed  
+- g → learnable gate score
+
+- τ → temperature scaling (sharpens pruning)
+ 
+- Gate ≈ 0 → weight removed
+
 - Gate ≈ 1 → weight kept  
