@@ -35,7 +35,7 @@ $$
 ## 📊 Results
 
 ## Sparsity vs Accuracy
-![Sparsity vs Accuracy](images/sparsity_vs_accuracy.png)
+![Sparsity vs Accuracy](images/[sparsity_vs_accuracy.png](https://github.com/Beantkaur0524/Self-pruning-neural-n-w/blob/main/gate_value_distrubution.png))
 
 ## Gate Distribution
 ![Gate Distribution](images/gate_distribution.png)
